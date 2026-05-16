@@ -58,7 +58,7 @@ const ResumeAnalyzer = () => {
 
       const response =
         await axios.post(
-          "http://verifycareers-backend.onrender.com/api/resume/parse",
+          "https://verifycareers-backend.onrender.com/api/resume/parse",
           formData
         );
 

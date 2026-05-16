@@ -42,7 +42,7 @@ const UploadRisk = () => {
     }
 
     const uploadResponse = await fetch(
-      "http://verifycareers-backend.onrender.com/api/upload/upload-offer",
+      "https://verifycareers-backend.onrender.com/api/upload/upload-offer",
       {
         method: "POST",
         headers: {
@@ -60,7 +60,7 @@ const UploadRisk = () => {
     // STEP 2 → ANALYZE OFFER
     // ==============================
     const analyzeResponse = await fetch(
-      "http://verifycareers-backend.onrender.com/api/upload/analyze-offer",
+      "https://verifycareers-backend.onrender.com/api/upload/analyze-offer",
       {
         method: "POST",
         headers: {

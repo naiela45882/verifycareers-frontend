@@ -42,7 +42,7 @@ const ForgotPassword = () => {
         setMessage("");
 
         const res = await fetch(
-          "http://verifycareers-backend.onrender.com/api/auth/forgot-password",
+          "https://verifycareers-backend.onrender.com/api/auth/forgot-password",
           {
             method: "POST",
 

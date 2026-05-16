@@ -26,7 +26,7 @@ export default function History() {
     try {
 
       const res = await fetch(
-        "http://verifycareers-backend.onrender.com/api/upload/history",
+        "https://verifycareers-backend.onrender.com/api/upload/history",
         {
           headers: {
             Authorization: `Bearer ${localStorage.getItem("token")}`,
