@@ -39,7 +39,7 @@ const FloatingChatbot = () => {
     try {
 
       const res = await fetch(
-        "http://localhost:5000/api/chatbot/ask",
+        "http://verifycareers-backend.onrender.com/api/chatbot/ask",
         {
           method: "POST",
 

@@ -41,7 +41,8 @@ const Chatbot = () => {
       // 🤖 BACKEND AI CALL
       // ======================================
       const res = await fetch(
-        "http://localhost:5000/api/chatbot/ask",
+        "https://verifycareers-backend.onrender.com",
+      
         {
           method: "POST",
 

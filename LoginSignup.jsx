@@ -83,8 +83,8 @@ const LoginSignup = () => {
     setError("");
 
     const url = isSignup
-      ? "http://localhost:5000/api/auth/register"
-      : "http://localhost:5000/api/auth/login";
+      ? "http://verifycareers-backend.onrender.com/api/auth/register"
+      : "http://verifycareers-backend.onrender.com/api/auth/login";
 
     try {
 
@@ -170,7 +170,7 @@ const LoginSignup = () => {
         // AUTO LOGIN
         const loginRes =
           await fetch(
-            "http://localhost:5000/api/auth/login",
+            "http://verifycareers-backend.onrender.com/api/auth/login",
             {
               method: "POST",
 

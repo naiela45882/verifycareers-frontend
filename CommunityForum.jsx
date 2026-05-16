@@ -70,7 +70,7 @@ const CommunityForum = () => {
 
       const response =
         await axios.post(
-          "http://localhost:5000/api/community/create",
+          "https://verifycareers-backend.onrender.com/api/community/create",
           {
             title,
             category,

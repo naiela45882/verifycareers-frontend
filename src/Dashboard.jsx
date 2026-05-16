@@ -10,7 +10,7 @@ const Dashboard = () => {
   const fetchHistory = async () => {
     try {
       const res = await fetch(
-        "http://localhost:5000/api/upload/history",
+        "http://verifycareers-backend.onrender.com/api/upload/history",
         {
           headers: {
             Authorization: `Bearer ${localStorage.getItem("token")}`,
